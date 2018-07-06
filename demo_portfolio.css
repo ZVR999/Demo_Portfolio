@@ -1,0 +1,36 @@
+*{
+    outline: 1px dotted rebeccapurple;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 980px;
+    min-height: 500px;
+}
+
+.header{
+    width: 100%;
+    min-height: 100px;
+}
+
+.wrapper{
+    width: 100%;
+    min-height: 300px;
+}
+
+.top{
+    width: 100%;
+    min-height: 200px;
+}
+
+.mid{
+    width: 100%;
+    min-height: 400px;
+}
+
+.footer{
+    width: 100%;
+    width: 980px;
+    min-height: 100px;
+}
