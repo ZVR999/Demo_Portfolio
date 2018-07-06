@@ -5,7 +5,7 @@
 }
 
 .container{
-    width: 980px;
+    width: 950px;
     min-height: 500px;
     background: linear-gradient( #f1f1f1, white, #f1f1f1);
 }
@@ -27,14 +27,14 @@ h1{
 .portTitle{
     display: inline-block;
     margin-top: 15px;
-    margin-bottom: 20   px;
+    margin-bottom: 20px;
     padding: 10px;
     margin-left: 400px;
     font-size: 20px;
     font-weight: bold;
 }
 
-.wrapper{
+.wrapper{  
     width: 100%;
     min-height: 300px;
     background: radial-gradient(#8c7c84,#6f5964,#4b3840 70%);
@@ -48,10 +48,33 @@ h1{
 
 .proPic{
     display:inline-block;
-    height: 250px;
-    width: 390px;
+    height: 247px;
+    width: 380px;
     border: 5px solid #c0c0c0;
     vertical-align: top;
+}
+
+.topBox{
+    height: 260px;
+    width: 465px;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+h2{  /*multiple h2 tags, will try to use only one class to min. code*/
+    background: linear-gradient(#b3b3b6, #888694, #b3b3b6);
+    color: #fffff9;
+    display: inline-block;
+    width: 100%;
+    padding: 8px;
+    font-size: 22px;
+}
+
+p{
+    background: linear-gradient(to right,white,#dacbd9);
+    display: inline-block;
+    width: 100%;
+    padding: 8px;
 }
 
 .mid{
