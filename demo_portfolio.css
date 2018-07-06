@@ -7,21 +7,51 @@
 .container{
     width: 980px;
     min-height: 500px;
+    background: linear-gradient( #f1f1f1, white, #f1f1f1);
 }
 
 .header{
     width: 100%;
-    min-height: 100px;
+    min-height: 50px;
+    color: black;
+}
+
+h1{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.portTitle{
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 20   px;
+    padding: 10px;
+    margin-left: 400px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .wrapper{
     width: 100%;
     min-height: 300px;
+    background: radial-gradient(#8c7c84,#6f5964,#4b3840 70%);
 }
 
 .top{
     width: 100%;
     min-height: 200px;
+    padding: 20px 25px;
+}
+
+.proPic{
+    display:inline-block;
+    height: 250px;
+    width: 390px;
+    border: 5px solid #c0c0c0;
+    vertical-align: top;
 }
 
 .mid{
