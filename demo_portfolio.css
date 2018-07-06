@@ -80,6 +80,20 @@ p{
 .mid{
     width: 100%;
     min-height: 400px;
+    display: inline-block;
+}
+
+.midBox{
+    display: inline-block;
+    width: 270px;
+    min-height: 200px;
+    margin-left: 5px;
+    padding: 16px;
+}
+
+.appPic{
+    width: 286px;
+    height: 150px;
 }
 
 .footer{
