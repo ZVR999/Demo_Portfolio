@@ -72,7 +72,64 @@ p{
 .main{
     min-height: 100px;
     background-color: saddlebrown;
+    display: inline-block;
 }
+
+.appPics{
+    width: 104%;
+    height: 150px;
+    margin: 0;
+    
+}
+
+.mainHeadings{
+    display: inline-block;
+    vertical-align: top;
+    width: 274px;
+    margin: 0 25px;
+}
+
+h3{
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    background-color: gray;
+    width: 100%;
+    vertical-align: top;
+    margin: 0;
+}
+
+.techPics{
+    display: inline-block;
+    vertical-align: top;
+    width: 284px;
+    margin: 0;
+    padding-top: 3px;
+    background-color: pink;
+}
+
+div.techPics img{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin: 2px;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+h4{
+    background-color: #407d61;
+    color: white; 
+    margin: 0px 60px 30px 60px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: normal;
+
+}
+
+
 
 .footer{
     min-height: 100px;
