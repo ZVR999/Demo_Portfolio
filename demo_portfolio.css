@@ -28,8 +28,8 @@ h1{
     margin-top: 15px;
     margin-bottom: 20px;
     padding: 10px;
-    margin-left: 400px;
-    font-size: 20px;
+    margin-left: 350px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -65,8 +65,12 @@ h2{  /*multiple h2 tags, will try to use only one class to min. code*/
     color: #fffff9;
     display: inline-block;
     width: 100%;
-    padding: 8px;
     font-size: 22px;
+    padding: 5px;
+}
+
+div.topBox p a {
+    color: black;
 }
 
 p{
@@ -86,13 +90,14 @@ p{
     display: inline-block;
     width: 270px;
     min-height: 200px;
-    margin-left: 5px;
-    padding: 16px;
+    margin-left: 20px;
+    padding: 5px;
     vertical-align: top;
+    background: linear-gradient(to right,white,#dacbd9);
 }
 
 .appPic{
-    width: 286px;
+    width: 105%;
     height: 150px;
 }
 
@@ -117,7 +122,7 @@ h3{
 div.techPics img{
     display: inline-block;
     height: 40px;
-    width: 40px;
+    width: 100%;
     margin: 5px;
 }
 
